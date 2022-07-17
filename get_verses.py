@@ -28,6 +28,8 @@ if __name__ == "__main__":
         lang_url=lang_url,
         save_dir=save_dir
         )
+    
+    print(f"Will be saving to {rd.save_dir}")
 
     def books_loop(book):
         start_time = time.time()

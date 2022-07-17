@@ -1,11 +1,11 @@
 """
-tools for reading from bible onlline
-Class: Trip
+Class for reading from bible online
+
 """
 import os
 import requests
 from bs4 import BeautifulSoup
-from translator import utils
+from src import utils
 
 class Reader():
     def __init__(
